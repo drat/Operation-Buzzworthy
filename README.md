@@ -1,6 +1,6 @@
 #Operation Buzzworthy
 
-*1.* - **@TeamChris2014_**
+*1.* - **@TeamChris2014**
 
 *2.* - **@ChrisIsNumber1**
 
