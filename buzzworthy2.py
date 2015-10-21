@@ -1,6 +1,6 @@
 import twitter
 from random import randrange
-from OAuthSettings import settings
+from OAuthSettings2 import settings
 
 #OAuth credentials
 consumer_key = settings['consumer_key']
@@ -14,7 +14,7 @@ mrpitag = '#MRPI2014'
 chrispacheco = 'Chris Pacheco'
 chris = 'Chris'
 
-sentence = randrange(0,40)
+sentence = randrange(0,51)
 if sentence == 0:
     subject = 'If only I could be as'
     ending = 'as ' + chrispacheco
@@ -115,6 +115,29 @@ elif sentence == 38:
 	hype = 'T E A M   C H R I S'
 elif sentence == 39:
 	hype = 'asdfghjkl'
+elif sentence == 40:
+	hype = 'There used to be a street named after Chris, but it was changed because no one crosses Chris and lives'
+elif sentence == 41:
+	hype = 'Chris can accelerate beyond the speed of light'
+elif sentence == 42:
+	hype = 'Chris can make snow angels on a concrete slab'
+elif sentence == 43:
+	hype = 'Global warming can be stopped only by using the coolness of Chris.'
+elif sentence == 44:
+	hype = 'Chris can do no wrong'
+elif sentence == 45:
+	hype = 'Chris can count backwards from infinity'
+elif sentence == 46:
+	hype = 'When Chris cuts onions, the onions cry.'
+elif sentence == 47:
+	hype = 'I always get lost in Chris Pachecos eyes'
+elif sentence == 48:
+	hype = 'If Chris were a fruit he would be a fineapple'
+elif sentence == 49:
+	hype = 'Chris once solved a Rubiks Cube simply by shouting at it'
+elif sentence == 50:
+	hype = 'Chris is so hot he melts lava.'
+
 
 if sentence >= 0 and sentence < 20:
 	# choose a random operator
